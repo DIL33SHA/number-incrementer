@@ -17,14 +17,19 @@ function decrement() {
     }
 }
 function save() {
-    let display = document.getElementById('save')
+    let display_save = document.getElementById('save')
+    let display = document.getElementById('count')
     save_numbers.push(count)
-    display.innerHTML = save_numbers
+    display_save.innerHTML = save_numbers
+    display.innerHTML = 0 
+    count = 0
 }
 function clear_save() {
-    let display = document.getElementById('save')
+    let display_save = document.getElementById('save')
+    let display = document.getElementById('count')
     save_numbers.length = 0
-    display.innerHTML = 'none'
-    
+    display_save.innerHTML = 'none'
+    display.innerHTML = 0 
+    count = 0
 }
 
