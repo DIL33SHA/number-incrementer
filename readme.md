@@ -1,10 +1,10 @@
 #################### Number incrementer ##################
 
-this project created using HTML,CSS and JavaSript   
+this project developed using HTML,CSS and JavaScript   
                                                      
-we can use this for count number,                   
+we can use this for count number like,                   
 		- balls in an over                  
-		- peoples of enter                 
-		- like thing        
+		- peoples of entered               
+		- etc     
                 			        
 ##########################################################
