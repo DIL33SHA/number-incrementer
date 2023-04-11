@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin Sans");
+@import url("https://fonts.googleapis.com/css?family=PT Mono");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: rgb(3, 3, 22);
+    --second-color: rgb(38, 38, 192);
+    --text-color: white;
+    --main-font: 'Josefin Sans', sans-serif;
+    --second-font:'PT Mono', monospace;
+}
+body{
+    margin: 128px 64px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+.body{
+    display: block;
+}
+.h1{
+    margin: 16px;
+    font-family: var(--main-font);
+    font-size: 4em;
+    text-align: center;
+}
+#count{
+    margin: 16px;
+    margin-bottom: 32px;
+    font-family: var(--second-font);
+    font-size: 3em;
+    text-align: center;
+}
+.btn-area{
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background: none;
+    color: var(--text-color);
+    border: none;
+    border: 1px solid white;
+    padding: 8px 16px;
+    color: var(--text-color);
+    font-size: 1em;
+    font-family: var(--second-font);
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid var(--second-color);
+    font-weight: 600;
+}
+.save{
+    margin: 16px;
+    font-family: var(--main-font);
+    font-size: 2em;
+    text-align: center;
+}
